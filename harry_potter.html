@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harry Potter Characters</title>
+  <link rel="stylesheet" href="harry.css">
+
+  <header>    
+        
+      <h1>Harry Potter Characters</h1>
+
+        
+     <nav id="nave"> 
+       <ul>
+           <li><a href="index.html">INICIO</a></li>
+ 
+           <li><a href="#">AVANCE 5</a>
+               <ul>
+                   <li><a href="eventos.html">Manejo de Eventos en JS</a></li>
+                   <li><a href="objetos.html">Objetos en JavaScript</a></li>
+                   <li><a href="pokeapi.html">PokeAPI</a></li>
+                   <li><a href="harry_potter.html">API de 22690406</a></li>
+               </ul>
+           </li>
+       </ul>  
+   </header>
+ 
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div id="character-list" class="grid-container"></div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal hidden">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-header">
+          <img id="modal-img" src="" alt="Character Image">
+          <h2 id="modal-name"></h2>
+        </div>
+        <div id="modal-description" class="modal-body"></div>
+      </div>
+    </div>
+  </main>
+  <script src="harry.js"></script>
+</body>
+</html>
